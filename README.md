@@ -16,3 +16,4 @@ Just a few words on the tools that I use.
 
 - Editing: [Sublime Text 2](http://www.sublimetext.com/ "Sublime Text: The text editor you'll fall in love with")
 - Syntax Highlighting for CoffeeScript: [jashkenas's CoffeeScript TextMate bundle](https://github.com/jashkenas/coffee-script-tmbundle "A TextMate Bundle for the CoffeeScript programming language.")
+- CoffeeScript compiling & node.js refreshing: An attempt introduced by Pedro Teixeira is the following command: `(coffee --compile --watch .&); nodemon app.js`
