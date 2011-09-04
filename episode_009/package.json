@@ -1,0 +1,12 @@
+{
+  "name": "Node Tuts Episode 9: Express",
+  "description": "Episode 9 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./app.js",
+  "dependencies": {
+    "express": "2.4.6",
+    "jade": "0.15.3"
+  }
+}
