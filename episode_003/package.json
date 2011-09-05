@@ -1,0 +1,10 @@
+{
+  "name": "Node Tuts Episode 3: Flush the cat - filesystem, reading files, streams, slow clients and sys.pump",
+  "description": "Episode 3 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./file.js",
+  "dependencies": {
+  }
+}
