@@ -1,0 +1,10 @@
+{
+  "name": "Node Tuts Episode 2: Webtail - Node.js child processes and HTTP chunked encoding",
+  "description": "Episode 2 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./webtail.js",
+  "dependencies": {
+  }
+}
