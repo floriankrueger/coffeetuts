@@ -1,1 +1,1 @@
-The `cat.jpg` is taken from (icanhascheezburger.com)[http://icanhascheezburger.com/2011/09/03/funny-pictures-cat-omg-caturday/ "Cyoot Kitteh of teh Day: O MAI GAWD… ITZ CATURDAY!"] and doesn't belong to me. THX to 'unknown' for posting this ;)
+The `cat.jpg` is taken from [icanhascheezburger.com](http://icanhascheezburger.com/2011/09/03/funny-pictures-cat-omg-caturday/ "Cyoot Kitteh of teh Day: O MAI GAWD… ITZ CATURDAY!") and doesn't belong to me. THX to 'unknown' for posting this ;)
