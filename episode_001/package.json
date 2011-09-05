@@ -1,0 +1,10 @@
+{
+  "name": "Node Tuts Episode 1: Node.js installation and first Hello World HTTP Server",
+  "description": "Episode 1 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./app.js",
+  "dependencies": {
+  }
+}
