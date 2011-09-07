@@ -1,0 +1,10 @@
+{
+  "name": "Node Tuts Episode 6: Simple chat with Node.js and websockets",
+  "description": "Episode 6 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./ws.js",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>chat</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <style type="text/css">
+      body {
+        background-color: #666;
+        color: #fff;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, Sans-Serif;
+      }
+      #log {
+        margin-bottom: 100px;
+        width: 100%;
+      }
+      #log ul {
+        padding: 0;
+        margin: 0;
+      }
+      #log ul li {
+        list-style-type: none;
+      }
+      #console {
+        background-color: #000;
+        color: #fff;
+        border-top: 1px solid #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 18px;
+      }
+      #console input {
+        width: 100%;
+        background-color: inherit;
+        color: inherit;
+        font-size: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chat</h1>
+    <div id="log"><ul></ul></div>
+    <div id="console">
+      <input type="text" id="entry" />
+    </div>
+  </body>
+</html>
