@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Florian Krüger",
   "repository": "git@github.com:floriankrueger/coffeetuts.git",
-  "main":"./ws.js",
+  "main":"./chat.js",
   "dependencies": {
   }
 }
