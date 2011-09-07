@@ -3,6 +3,26 @@
   <head>
     <title>chat</title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        ws = new WebSocket("ws://localhost:8080");
+        ws.onmessage = function(event) {
+          var data = event.data.replace(/&/g,"&amp;").replace(/</g,"&lt").replace(/>/g,"&gt");
+          $('#log ul').append('<li>' + data + '</li>');
+        }
+        var entry_el = $('#entry');
+        entry_el.keypress(function(event) {
+          if (event.keyCode != 13) return;
+          var msg = entry_el.attr('value');
+          if (msg) {
+            ws.send(msg);
+            entry_el.attr('value', '');
+            window.scrollBy(0, 10000000000);
+            entry_el.focus();
+          }
+        });
+      });      
+    </script>
     <style type="text/css">
       body {
         background-color: #666;
