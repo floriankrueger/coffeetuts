@@ -1,0 +1,11 @@
+{
+  "name": "Node Tuts Episode 5: A basic TCP chat server",
+  "description": "Episode 5 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./chat.js",
+  "dependencies": {
+    "carrier": "0.1.2"
+  }
+}
