@@ -1,0 +1,11 @@
+{
+  "name": "Node Tuts Episode 7: Embracing all with Socket.io",
+  "description": "Episode 7 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./chat.js",
+  "dependencies": {
+    "socket.io":"0.8.4"
+  }
+}
