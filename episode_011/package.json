@@ -1,0 +1,12 @@
+{
+  "name": "Node Tuts Episode 11: Express part III - RESTful forms",
+  "description": "Episode 11 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./app.js",
+  "dependencies": {
+    "express": "2.4.6",
+    "jade": "0.15.3"
+  }
+}
