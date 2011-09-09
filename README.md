@@ -16,4 +16,5 @@ Just a few words on the tools that I use.
 
 - Editing: [Sublime Text 2](http://www.sublimetext.com/ "Sublime Text: The text editor you'll fall in love with")
 - Syntax Highlighting for CoffeeScript: [jashkenas's CoffeeScript TextMate bundle](https://github.com/jashkenas/coffee-script-tmbundle "A TextMate Bundle for the CoffeeScript programming language.")
-- CoffeeScript compiling & node.js refreshing: An attempt introduced by Pedro Teixeira is the following command: `(coffee --compile --watch .&); nodemon app.js`
+- **UNNECESSARY** CoffeeScript compiling & node.js refreshing: An attempt introduced by Pedro Teixeira is the following command: `(coffee --compile --watch .&); nodemon app.js`
+- **NEW** Since [nodemon](https://github.com/remy/nodemon "Monitor for any changes in your node.js application and automatically restart the server - perfect for development") does support CoffeeScript monitoring, all you need to do is `nodemon app.coffee`. It is only importand to have a `.nodemonignore` file in all of your node.js application folders, otherwise nodemon is only looking for `*.js` files (see [nodemon issue #32](https://github.com/remy/nodemon/issues/32 "Monitoring coffee-script file doesn't restart server"))
