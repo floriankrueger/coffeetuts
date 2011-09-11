@@ -1,0 +1,10 @@
+{
+  "name": "Random String Singleton",
+  "description": "Random String from Nodetuts Episode 17",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./index.js",
+  "dependencies": {
+  }
+}
