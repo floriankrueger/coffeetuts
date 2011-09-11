@@ -1,0 +1,14 @@
+{
+  "name": "Node Tuts Episode 13: Authentication in Express - Sessions and Route middleware",
+  "description": "Episode 13 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./app.js",
+  "dependencies": {
+    "express": "2.4.6",
+    "jade": "0.15.3",
+    "multipart": "0.0.0",
+    "mongoose": "2.1.2"
+  }
+}
