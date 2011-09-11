@@ -1,6 +1,6 @@
 {
-  "name": "Node Tuts Episode 13: Authentication in Express - Sessions and Route middleware",
-  "description": "Episode 13 of Pedro Teixeira's Node Tuts",
+  "name": "Node Tuts Episode 18: MongoDB and Mongoose",
+  "description": "Episode 18 of Pedro Teixeira's Node Tuts",
   "version": "0.0.1",
   "author": "Florian Krüger",
   "repository": "git@github.com:floriankrueger/coffeetuts.git",

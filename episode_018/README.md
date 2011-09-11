@@ -1,12 +1,7 @@
-# Nodetuts Episode 12 w/ multipart.js#
+# Nodetuts Episode 18 #
 
-## File uploads using node.js and express ##
+## MongoDB and Mongoose ##
 
-This is the original version of Pedro Teixeira's Nodetuts Episode 12 using [multipart.js](https://github.com/isaacs/multipart-js "A JavaScript library for parsing and writing multipart messages."). The module is no longer available in the [npm](http://npmjs.org/ "npm - Node Package Manager") registry but as a standalone module. This is how I installed it into my `node_modules` folder.
+Since the API of Mongoose changed significantly since the release of this episode, there are a few changes in code. I changed the 'all' method of the products model to be a static method like the authenticate method on the users model to separate the model from the controller a bit more. However I did not do this to the other CRUD operations to not change the code completely.
 
-1. Go to `your_node_project_folder/node_modules` (create it if not existent)
-2. Clone the git repo into a folder called `multipart` with the following command:  
-    `git clone http://github.com/isaacs/multipart-js.git multipart`
-3. Use the module like you would use any other [npm](http://npmjs.org/ "npm - Node Package Manager") installed module  
-    `var multipart = require('multipart');` for JavaScript  
-    `multipart = require 'multipart'` for CoffeeScript
+What I discovered is, that you don't seem to need the `product._id.toHexString()` anymore as everything already worked for me when in the screencast Pedro needed to change the original `product.id` calls. To make it more compliant I changed it anyways.
