@@ -1,0 +1,10 @@
+{
+  "name": "Node Tuts Episode 20: Unit tests and TDD in node.js",
+  "description": "Episode 20 of Pedro Teixeira's Node Tuts",
+  "version": "0.0.1",
+  "author": "Florian Krüger",
+  "repository": "git@github.com:floriankrueger/coffeetuts.git",
+  "main":"./app.js",
+  "dependencies": {
+  }
+}
