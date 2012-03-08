@@ -1,4 +1,4 @@
-# COFFEETUTS #
+# COFFEETUTS [![endorse](http://api.coderwall.com/floriankrueger/endorsecount.png)](http://coderwall.com/floriankrueger) #
 
 This is an attempt to rewrite the code examples of Pedro Teixeira's [Node Tuts](http://nodetuts.com "Node Tuts - Node.js Free Screencasts Tutorials") episodes in CoffeeScript. I am new to [node.js](http://nodejs.org/ "node.js") and [CoffeeScript](http://jashkenas.github.com/coffee-script/ "CoffeeScript") but this way I am trying to learn the syntax of CoffeeScript while learning node.js. 
 
